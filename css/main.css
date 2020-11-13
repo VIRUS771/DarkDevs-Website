@@ -1,0 +1,21 @@
+html, body {
+    background-color: #343a40;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.wrapper {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+}
